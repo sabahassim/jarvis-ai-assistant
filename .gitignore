@@ -1,0 +1,26 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+Jarvis-Secrets/
+# Databases and personal data
+*.db
+*.sqlite
+*.sqlite3
+# Local backups
+*_backup*
+*_before_*
+# Logs
+*.log
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
